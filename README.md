@@ -9,3 +9,5 @@ folder.
    different sections of the memory for TM4C123.Planning to do that by next release. 
    
 4. Working on LLD's and planning to complete it by the 15 of mext month.
+
+5. The code only builds in code composer studio and semaphore compiler configuration not done yet.  
