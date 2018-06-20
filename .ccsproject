@@ -12,4 +12,5 @@
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=com.ti.rtsc.SYSBIOS.example_34,type=rtsc,products=com.ti.rtsc.SYSBIOS,target=ti.targets.arm.elf.M4F,platform=ti.platforms.tiva:$DeviceId$,buildProfile=release,isHybrid=true,configuroOptions=--compileOptions &quot;-g&quot;,"/>
 	<filesToOpen value=""/>
+	<isTargetManual value="false"/>
 </projectOptions>

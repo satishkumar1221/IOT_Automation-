@@ -169,6 +169,8 @@ main.obj: ../variablespec.h
 main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h
 main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h
 main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
+main.obj: ../stub.h
+main.obj: ../variablespec.h
 
 ../main.c: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h: 
@@ -339,3 +341,5 @@ main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/lin
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
+../stub.h: 
+../variablespec.h: 

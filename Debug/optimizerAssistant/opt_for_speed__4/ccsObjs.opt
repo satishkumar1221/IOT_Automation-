@@ -1,0 +1,1 @@
+"./main.obj" "./stub.obj" "../TM4C123GH6PM.cmd" -l"configPkg/linker.cmd" -llibc.a 
