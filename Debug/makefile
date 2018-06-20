@@ -9,7 +9,7 @@ GEN_CMDS__FLAG := -l"configPkg/linker.cmd"
 
 ORDERED_OBJS += \
 "./main.obj" \
-"../TM4C123GH6PM.cmd" \
+"./stub.obj" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
 
@@ -131,11 +131,11 @@ BIN_OUTPUTS__QUOTED += \
 
 
 # All Target
-all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+all: $(OBJS) $(GEN_CMDS)
 	@$(MAKE) --no-print-directory -Onone "projectx_alpha.out"
 
 # Tool invocations
-projectx_alpha.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+projectx_alpha.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: ARM Linker'
 	"/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"projectx_alpha.map" --heap_size=0 --stack_size=512 -i"/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/lib" -i"/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="projectx_alpha_linkInfo.xml" --rom_model -o "projectx_alpha.out" $(ORDERED_OBJS)
@@ -153,8 +153,8 @@ projectx_alpha.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "main.obj" 
-	-$(RM) "main.d" 
+	-$(RM) "main.obj" "stub.obj" 
+	-$(RM) "main.d" "stub.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
