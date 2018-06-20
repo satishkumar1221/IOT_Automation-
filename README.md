@@ -10,4 +10,6 @@ folder.
    
 4. Working on LLD's and planning to complete it by the 15 of mext month.
 
-5. The code only builds in code composer studio and semaphore compiler configuration not done yet.  
+5. The code only builds in code composer studio and semaphore compiler configuration not done yet. 
+
+6. Yet to write the conversion functions. WIll be done by today or tommorow. 
