@@ -10,7 +10,7 @@
 #include <ti/sysbios/BIOS.h>
 
 #include <ti/sysbios/knl/Task.h>
-
+#include "variablespec.h"
 /*
  *  ======== taskFxn ========
  */
@@ -30,6 +30,7 @@ Void taskFxn(UArg a0, UArg a1)
  */
 Int main()
 { 
+    UByte p;
     Task_Handle task;
     Error_Block eb;
 
@@ -42,6 +43,6 @@ Int main()
         BIOS_exit(0);
     }
 
-    BIOS_start();    /* does not return */
+    BIOS_start();
     return(0);
 }

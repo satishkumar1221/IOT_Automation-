@@ -165,6 +165,10 @@ main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
 main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/interfaces/ITaskSupport.h
 main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task__epilogue.h
 main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/package/Task_SupportProxy.h
+main.obj: ../variablespec.h
+main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h
+main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h
+main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
 
 ../main.c: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h: 
@@ -331,3 +335,7 @@ main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/package/Task_S
 /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/interfaces/ITaskSupport.h: 
 /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task__epilogue.h: 
 /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/package/Task_SupportProxy.h: 
+../variablespec.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
