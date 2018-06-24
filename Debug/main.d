@@ -171,6 +171,64 @@ main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti
 main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
 main.obj: ../stub.h
 main.obj: ../variablespec.h
+main.obj: ../apiconfig.h
+main.obj: ../variablespec.h
+main.obj: ../test.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h
+main.obj: ../variablespec.h
+main.obj: ../stub.h
+main.obj: ../variablespec.h
+main.obj: ../apiconfig.h
+main.obj: ../variablespec.h
+main.obj: ../apiconfig.h
+main.obj: ../variablespec.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/GPIO.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/SPI.h
+main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/spi/SPITivaDMA.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore__prologue.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Queue.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Clock.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event__prologue.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Queue.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Clock.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event__epilogue.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore__epilogue.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi__prologue.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/package/package.defs.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/BIOS.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/interfaces/IHwi.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h
+main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h
+main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi__epilogue.h
 
 ../main.c: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h: 
@@ -343,3 +401,61 @@ main.obj: ../variablespec.h
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
 ../stub.h: 
 ../variablespec.h: 
+../apiconfig.h: 
+../variablespec.h: 
+../test.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h: 
+../variablespec.h: 
+../stub.h: 
+../variablespec.h: 
+../apiconfig.h: 
+../variablespec.h: 
+../apiconfig.h: 
+../variablespec.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/GPIO.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/SPI.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/spi/SPITivaDMA.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore__prologue.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Queue.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Clock.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event__prologue.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Queue.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Clock.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Task.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Event__epilogue.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/knl/Semaphore__epilogue.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi__prologue.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/package/package.defs.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Diags.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Log.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Assert.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/BIOS.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/interfaces/IHwi.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstance.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Error.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IModule.h: 
+/home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi__epilogue.h: 

@@ -6,9 +6,13 @@
 CFG_SRCS += \
 ../app.cfg 
 
+CMD_SRCS += \
+../TM4C123GH6PM.cmd 
+
 C_SRCS += \
 ../main.c \
-../stub.c 
+../stub.c \
+../test.c 
 
 GEN_CMDS += \
 ./configPkg/linker.cmd 
@@ -22,25 +26,29 @@ GEN_MISC_DIRS += \
 
 C_DEPS += \
 ./main.d \
-./stub.d 
+./stub.d \
+./test.d 
 
 GEN_OPTS += \
 ./configPkg/compiler.opt 
 
 OBJS += \
 ./main.obj \
-./stub.obj 
+./stub.obj \
+./test.obj 
 
 GEN_MISC_DIRS__QUOTED += \
 "configPkg/" 
 
 OBJS__QUOTED += \
 "main.obj" \
-"stub.obj" 
+"stub.obj" \
+"test.obj" 
 
 C_DEPS__QUOTED += \
 "main.d" \
-"stub.d" 
+"stub.d" \
+"test.d" 
 
 GEN_FILES__QUOTED += \
 "configPkg/linker.cmd" \
@@ -48,6 +56,7 @@ GEN_FILES__QUOTED += \
 
 C_SRCS__QUOTED += \
 "../main.c" \
-"../stub.c" 
+"../stub.c" \
+"../test.c" 
 
 

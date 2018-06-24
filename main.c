@@ -3,7 +3,7 @@
  */
 
 #include <xdc/std.h>
-
+#include <stdint.h>
 #include <xdc/runtime/Error.h>
 #include <xdc/runtime/System.h>
 
@@ -13,9 +13,23 @@
 #include "variablespec.h"
 //stub file//Unit testing // Must be included in main to avoid Junk//
 #include "stub.h"
+#include"test.h"
+#include <ti/drivers/PWM.h>
+#include <ti/drivers/GPIO.h>
+ #include <ti/drivers/SPI.h>
+ #include <ti/drivers/spi/SPITivaDMA.h>
+
 /*
  *  ======== taskFxn ========
  */
+
+void stubtest()
+{
+
+test_variables();
+test_api();
+}
+
 Void taskFxn(UArg a0, UArg a1)
 {
     System_printf("enter taskFxn()\n");
@@ -28,10 +42,7 @@ Void taskFxn(UArg a0, UArg a1)
 }
 
 //stub test will be removed later on// To make the main cleaner//
-void stubtest()
-{
-test_variables();
-}
+
 
 /*
  *  ======== main ========
@@ -42,6 +53,8 @@ test_variables();
 //For now remove the filters and it should build fine :) otherwise memory overlap error will shoot//
 Int main()
 { 
+
+
     Task_Handle task;
     Error_Block eb;
     System_printf("enter main()\n");
@@ -53,8 +66,11 @@ Int main()
         BIOS_exit(0);
     }
     BIOS_start();
+    stubtest();
     // To test the functionalities of the variables specs// Will be removed later //
     // Have to find a way to create different segments in memory :) //
-    stubtest();
+
+
+
     return(0);
 }

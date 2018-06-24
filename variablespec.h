@@ -5,12 +5,14 @@
  *      Author: satish
  */
 #include "stdio.h"
+#include "stdint.h"
 #ifndef VARIABLESPEC_H_
 #define VARIABLESPEC_H_
 
 //variable defanitions///
 typedef unsigned char UByte;
 typedef unsigned int UWord;
+typedef uint8_t  uint8;
 typedef float float32;
 
 typedef enum
