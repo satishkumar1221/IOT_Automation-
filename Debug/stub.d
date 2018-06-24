@@ -9,16 +9,20 @@ stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/std
 stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h
 stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h
 stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h
+stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
+stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
+stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
+stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
+stub.obj: ../stub.h
+stub.obj: ../variablespec.h
+stub.obj: ../apiconfig.h
+stub.obj: ../variablespec.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h
 stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h
 stub.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/targets/arm/elf/std.h
 stub.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/targets/arm/elf/M4F.h
 stub.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/targets/std.h
-stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
-stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
-stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
-stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/xdc.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types__prologue.h
@@ -98,16 +102,20 @@ stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
+/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
+../stub.h: 
+../variablespec.h: 
+../apiconfig.h: 
+../variablespec.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h: 
 /home/satish/ti/bios_6_70_01_03/packages/ti/targets/arm/elf/std.h: 
 /home/satish/ti/bios_6_70_01_03/packages/ti/targets/arm/elf/M4F.h: 
 /home/satish/ti/bios_6_70_01_03/packages/ti/targets/std.h: 
-/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
-/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
-/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
-/home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/xdc.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/Types__prologue.h: 

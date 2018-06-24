@@ -5,13 +5,30 @@
  *      Author: satish
  */
 #include "stdio.h"
+#include "stdint.h"
 #ifndef VARIABLESPEC_H_
 #define VARIABLESPEC_H_
 
 //variable defanitions///
 typedef unsigned char UByte;
-typedef unsigned int UWord;
+///typedef unsigned int UWord;
+typedef uint8_t  uint8;
 typedef float float32;
+typedef short int UWord;
+
+// defanitions//
+#define scalingfactor_voltage 110
+//For now scaling fcator has to be selected using debugger// They will be automated lateron//
+#define pi 3.14
+#define minvoltage 0
+typedef enum
+{
+    zero,
+    northamerica,
+    europe,
+    asia =2
+}country;
+#define maxvoltage 255
 
 typedef enum
 {
