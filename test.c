@@ -7,7 +7,9 @@
 
 #include "test.h"
 
-#pragma data_section(".data")
+#pragma DATA_SECTION(pop,".data")
+UWord pop[10];
+#pragma DATA_SECTION(x1,".data")
 void test_variables()
 {
 int x3;
@@ -36,8 +38,11 @@ void test_api()
      UByte x1  = 0x04;
     UByte mask = 0x03;
     setbits(&x1, mask);
-
-
+    UWord y = 0x03;
+    //voltage function check//
+    scalevoltage(&y,asia);
+    scalevoltage(&y,northamerica);
+    scalevoltage(&y,europe);
 }
 
 

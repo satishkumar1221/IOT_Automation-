@@ -12,9 +12,11 @@
 #include"variablespec.h"
 #include"stub.h"
 #include "apiconfig.h"
-
+//All the extern variables//
+extern UByte x1[8],x2[8];
 void test_variables();
 void test_api();
+
 
 
 #endif /* TEST_H_ */

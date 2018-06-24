@@ -12,7 +12,7 @@
 //pass the required address and mask
 void inline setbits (volatile UByte *x,uint8 mask) { *x = (*x | mask);}
 void inline clearbits (volatile UByte *x) { *x = (*x & 0x00000000);}
-
+void scalevoltage (volatile UWord *volt , UByte country);
 
 
 #endif /* APICONFIG_H_ */

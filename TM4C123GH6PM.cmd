@@ -34,7 +34,7 @@ MEMORY
 {
     FLASH (RX) : origin = 0x00000000, length = 0x00040000
    SRAM (RWX) : origin = 0x20000000, length = 0x00008000
-  //  CONSTSECTION : origin = 0x20008001, length = 0x00002000
+  //  CONSTSECTION : origin = 0x20008000, length = 0x00002000
   //  DATASECTION :  origin = 0x2000A001, length = 0x00006000
 
     //Have to go through memory map and specify the differenct sections///
