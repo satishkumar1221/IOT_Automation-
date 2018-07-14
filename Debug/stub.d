@@ -17,6 +17,11 @@ stub.obj: ../stub.h
 stub.obj: ../variablespec.h
 stub.obj: ../apiconfig.h
 stub.obj: ../variablespec.h
+stub.obj: ../gpio_config.h
+stub.obj: ../tm4c123gh6pm.h
+stub.obj: ../test.h
+stub.obj: ../gpio_config.h
+stub.obj: ../test.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h
 stub.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h
@@ -92,6 +97,15 @@ stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IInstanc
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IGateProvider.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/System_SupportProxy.h
 stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/System_Module_GateProxy.h
+stub.obj: ../variablespec.h
+stub.obj: ../stub.h
+stub.obj: ../variablespec.h
+stub.obj: ../apiconfig.h
+stub.obj: ../variablespec.h
+stub.obj: ../gpio_config.h
+stub.obj: ../apiconfig.h
+stub.obj: ../variablespec.h
+stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h
 
 ../stub.c: 
 ../variablespec.h: 
@@ -110,6 +124,11 @@ stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/
 ../variablespec.h: 
 ../apiconfig.h: 
 ../variablespec.h: 
+../gpio_config.h: 
+../tm4c123gh6pm.h: 
+../test.h: 
+../gpio_config.h: 
+../test.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/std.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h: 
@@ -185,3 +204,12 @@ stub.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/IGateProvider.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/System_SupportProxy.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/package/System_Module_GateProxy.h: 
+../variablespec.h: 
+../stub.h: 
+../variablespec.h: 
+../apiconfig.h: 
+../variablespec.h: 
+../gpio_config.h: 
+../apiconfig.h: 
+../variablespec.h: 
+/home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h: 

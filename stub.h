@@ -7,6 +7,7 @@
 // will be later on changed to test_file.c and test_file.h"
 #include "variablespec.h"
 #include "apiconfig.h"
+#include "gpio_config.h"
 #ifndef STUB_H_
 #define STUB_H_
 

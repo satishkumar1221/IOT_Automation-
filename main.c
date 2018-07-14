@@ -14,8 +14,9 @@
 //stub file//Unit testing // Must be included in main to avoid Junk//
 #include "stub.h"
 #include"test.h"
+ #include <ti/drivers/gpio/GPIOTiva.h>
 #include <ti/drivers/PWM.h>
-#include <ti/drivers/GPIO.h>
+
  #include <ti/drivers/SPI.h>
  #include <ti/drivers/spi/SPITivaDMA.h>
 
@@ -68,7 +69,7 @@ Int main()
     BIOS_start();
     stubtest();
     // To test the functionalities of the variables specs// Will be removed later //
-    // Have to find a way to create different segments in memory :) //
+  // uint16_t pop = 0x4000;
 
 
 
