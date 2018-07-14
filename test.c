@@ -7,9 +7,9 @@
 
 #include "test.h"
 
-#pragma DATA_SECTION(pop,".data")
+/*#pragma DATA_SECTION(pop,".data")
 UWord pop[10];
-#pragma DATA_SECTION(x1,".data")
+#pragma DATA_SECTION(x1,".data")*/
 void test_variables()
 {
 int x3;
@@ -31,7 +31,15 @@ x2[5] = raccess_bit5;
 x2[6] = raccess_bit6;
 x3 = raccess_bit7;
 }
+void test_gpio(uint8_t pin)
+{
 
+}
+
+/*void pop(uint8_t pop)
+{
+
+}*/
 void test_api()
 {
     //UByte *x1;
@@ -43,6 +51,9 @@ void test_api()
     scalevoltage(&y,asia);
     scalevoltage(&y,northamerica);
     scalevoltage(&y,europe);
+   // struct enablegpio gpp;
+    //gpp.get_rcgcgpio = &test_gpio;
+
 }
 
 

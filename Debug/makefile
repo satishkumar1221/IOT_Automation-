@@ -9,6 +9,8 @@ GEN_CMDS__FLAG := -l"configPkg/linker.cmd"
 
 ORDERED_OBJS += \
 "./apiconfig.obj" \
+"./dma_config.obj" \
+"./gpio_config.obj" \
 "./main.obj" \
 "./nvr.obj" \
 "./scheduler.obj" \
@@ -158,8 +160,8 @@ projectx_alpha.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(GEN_CMDS__QUOTED)$(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)$(GEN_OPTS__QUOTED)
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
-	-$(RM) "apiconfig.obj" "main.obj" "nvr.obj" "scheduler.obj" "stub.obj" "test.obj" 
-	-$(RM) "apiconfig.d" "main.d" "nvr.d" "scheduler.d" "stub.d" "test.d" 
+	-$(RM) "apiconfig.obj" "dma_config.obj" "gpio_config.obj" "main.obj" "nvr.obj" "scheduler.obj" "stub.obj" "test.obj" 
+	-$(RM) "apiconfig.d" "dma_config.d" "gpio_config.d" "main.d" "nvr.d" "scheduler.d" "stub.d" "test.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

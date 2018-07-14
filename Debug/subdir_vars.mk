@@ -11,6 +11,8 @@ CMD_SRCS += \
 
 C_SRCS += \
 ../apiconfig.c \
+../dma_config.c \
+../gpio_config.c \
 ../main.c \
 ../nvr.c \
 ../scheduler.c \
@@ -29,6 +31,8 @@ GEN_MISC_DIRS += \
 
 C_DEPS += \
 ./apiconfig.d \
+./dma_config.d \
+./gpio_config.d \
 ./main.d \
 ./nvr.d \
 ./scheduler.d \
@@ -40,6 +44,8 @@ GEN_OPTS += \
 
 OBJS += \
 ./apiconfig.obj \
+./dma_config.obj \
+./gpio_config.obj \
 ./main.obj \
 ./nvr.obj \
 ./scheduler.obj \
@@ -51,6 +57,8 @@ GEN_MISC_DIRS__QUOTED += \
 
 OBJS__QUOTED += \
 "apiconfig.obj" \
+"dma_config.obj" \
+"gpio_config.obj" \
 "main.obj" \
 "nvr.obj" \
 "scheduler.obj" \
@@ -59,6 +67,8 @@ OBJS__QUOTED += \
 
 C_DEPS__QUOTED += \
 "apiconfig.d" \
+"dma_config.d" \
+"gpio_config.d" \
 "main.d" \
 "nvr.d" \
 "scheduler.d" \
@@ -71,6 +81,8 @@ GEN_FILES__QUOTED += \
 
 C_SRCS__QUOTED += \
 "../apiconfig.c" \
+"../dma_config.c" \
+"../gpio_config.c" \
 "../main.c" \
 "../nvr.c" \
 "../scheduler.c" \

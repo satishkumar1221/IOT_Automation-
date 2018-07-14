@@ -173,6 +173,10 @@ main.obj: ../stub.h
 main.obj: ../variablespec.h
 main.obj: ../apiconfig.h
 main.obj: ../variablespec.h
+main.obj: ../gpio_config.h
+main.obj: ../tm4c123gh6pm.h
+main.obj: ../test.h
+main.obj: ../gpio_config.h
 main.obj: ../test.h
 main.obj: /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h
 main.obj: ../variablespec.h
@@ -180,10 +184,12 @@ main.obj: ../stub.h
 main.obj: ../variablespec.h
 main.obj: ../apiconfig.h
 main.obj: ../variablespec.h
+main.obj: ../gpio_config.h
 main.obj: ../apiconfig.h
 main.obj: ../variablespec.h
-main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/gpio/GPIOTiva.h
 main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/GPIO.h
+main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h
 main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/SPI.h
 main.obj: /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h
 main.obj: /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/spi/SPITivaDMA.h
@@ -403,6 +409,10 @@ main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi_
 ../variablespec.h: 
 ../apiconfig.h: 
 ../variablespec.h: 
+../gpio_config.h: 
+../tm4c123gh6pm.h: 
+../test.h: 
+../gpio_config.h: 
 ../test.h: 
 /home/satish/ti/xdctools_3_50_05_12_core/packages/xdc/runtime/System.h: 
 ../variablespec.h: 
@@ -410,10 +420,12 @@ main.obj: /home/satish/ti/bios_6_70_01_03/packages/ti/sysbios/family/arm/m3/Hwi_
 ../variablespec.h: 
 ../apiconfig.h: 
 ../variablespec.h: 
+../gpio_config.h: 
 ../apiconfig.h: 
 ../variablespec.h: 
-/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/gpio/GPIOTiva.h: 
 /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/GPIO.h: 
+/home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/PWM.h: 
 /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/SPI.h: 
 /home/satish/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h: 
 /home/satish/ti/tirtos_tivac_2_16_00_08/products/tidrivers_tivac_2_16_00_08/packages/ti/drivers/spi/SPITivaDMA.h: 
